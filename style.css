@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* border: 1px solid blue; */
+}
+
+html {
+    font-size: 1em;
+    min-width: 360px;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: 'Rubik Iso', cursive;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(196, 227, 255);
+    border: 0;
+}
+
+header>h1 {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 600px;
+}
+
+form {
+    background-color: rgb(238, 255, 0);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+}
+
+input,
+select,
+button {
+    display: inline-block;
+    width: 60%;
+    height: 30px;
+    margin: 2px;
+}
+
+form>div {
+    text-align: center;
+}
+
+fieldset>ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+fieldset {
+    box-shadow: 2px 2px 2px grey;
+}
+
+fieldset:nth-of-type(1) {
+    background-color: rgba(159, 236, 149, 0.7);
+}
+
+fieldset:nth-of-type(2) {
+    background-color: rgba(241, 166, 166, 0.7);
+}
+
+fieldset:nth-of-type(3) {
+    background-color: rgba(196, 200, 250, 0.7);
+}
+
+legend,
+label {
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    padding: 2px;
+}
+
+legend,
+label,
+input,
+select,
+button {
+    border-radius: 5px;
+    border: 0;
+}
+
+button {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px #5a5353;
+}
+
+button:hover {
+    background-color: blue;
+    color: #fff;
+    box-shadow: 2px 2px 6px #2e2c2c;
+}
+
+button:active {
+    background-color: rgb(91, 168, 255);
+    box-shadow: 0px 0px 1px #2e2c2c;
+}
